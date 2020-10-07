@@ -1,0 +1,27 @@
+h4{
+	color: green;
+	text-align: center;
+	width: 20%;
+}
+
+h5{
+	color: blue;
+}
+h2,h5{
+	text-align: center;
+}
+#check{
+color:blue;
+}
+.meet{
+	color:maroon;
+}
+.met{
+	text-align: center;
+}
+*{
+color:yellow;
+text-align :center;
+background-color: skyblue;
+}*
+
