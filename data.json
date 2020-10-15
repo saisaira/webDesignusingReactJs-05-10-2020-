@@ -1,0 +1,25 @@
+{
+	"details":{
+      "name":"D.Sairam",
+      "email":"Sairam.d@apssdc.in",
+      "mobile":99999999999,
+      "hobbies":["playing chess","playing cricket","reading books"]
+	},
+	"trainers":[
+{
+"name":"Swami",
+"email":"swami#@gmail.com",
+"hobbies":["playing chess","playing cricket","reading books"]
+},
+{
+"name":"kalyan",
+"email":"kalyan@gmail.com",
+"hobbies":["playing chess","playing cricket","reading books"]
+},
+{
+"name":"Ramu",
+"email":"ramu@gmail.com",
+"hobbies":["playing chess","playing cricket","reading books"]
+}
+	]
+}
