@@ -1,6 +1,7 @@
 {
 	"details":{
       "name":"D.Sairam",
+      "image":"abc.png",
       "email":"Sairam.d@apssdc.in",
       "mobile":99999999999,
       "hobbies":["playing chess","playing cricket","reading books"]
@@ -9,17 +10,17 @@
 {
 "name":"Swami",
 "email":"swami#@gmail.com",
-"hobbies":["playing chess","playing cricket","reading books"]
+"phone":7897897894
 },
 {
 "name":"kalyan",
 "email":"kalyan@gmail.com",
-"hobbies":["playing chess","playing cricket","reading books"]
+"phone":7897897894
 },
 {
 "name":"Ramu",
 "email":"ramu@gmail.com",
-"hobbies":["playing chess","playing cricket","reading books"]
+"phone":7897897894
 }
 	]
 }
