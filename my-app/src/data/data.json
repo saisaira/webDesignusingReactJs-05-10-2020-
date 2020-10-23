@@ -1,0 +1,19 @@
+{
+	"profiles":[
+		{
+        "name":"K.Swami",
+        "role":"Trainer",
+        "email":"Swami@gmail.com",
+        "mobile":8978978988,
+        "des":"He trained more than 3000 students in this year"
+		},
+		{
+        "name":"D.Sairam",
+        "role":"Trainer",
+        "email":"Sairam@gmail.com",
+        "mobile":8978978988,
+        "des":"He trained 1500 students in this year"
+		}
+
+	]
+}

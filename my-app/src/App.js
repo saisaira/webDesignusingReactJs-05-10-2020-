@@ -1,61 +1,36 @@
 import React from 'react';
+import {BrowserRouter,Route,Link} from 'react-router-dom';
 import './App.css';
+import Data from './data/data.json';
 import Pra from './Practice';
 import Array_data from './Array_data';
+import Profile from './Profile';
 
-function App(props){
-  var style={
-    background:"#000",
-    color:"#fff",
-    textAlign:"center"
-  }
-  let array=["Sairam","swami","kalyan","mahalakshmi","Rajesh","Gayathri","SuryaNarayana"]
-  let array1=["SriHarsha","thanuja","Nimmagadda SaiPriya","Kumaravelu s","Maniteja","sailakshmi","manikanta"]
+function App(props){  
   return(
-    <div>
-     {array.map((i,index)=>(
-
-      <Array_data trainer={array[index]} student={array1[index]} key={index} />
-      ))}
-
-
-
-
-
-
-
-
-
-
-     {
-      /*
-      <App1 fname="Apssdc" lname="sdc" />
-      <h1>Welcome To Function component</h1>
-      */
-      }
-      {
-    /*
-    <Pra name="Ran" message="He is Good Boy" />
-    */
-  }
-
-    </div>
-    )  
+    <BrowserRouter>
+    <Route exact path='/Profile' component={Profile} />
+    <Route exact path='/' component={Home} />
+    <Route exact path='/abc' component={Array_data} />
+    </BrowserRouter>
+   
+)
 }
-
-{
-  /*
-class App1 extends React.Component{
-  render(){
-    return(
-      <section className="welcome">
-      <p>{this.props.fname}</p>
-      <p>{this.props.lname}</p>
-      <h1>Welcome Class component</h1>  
-      </section>
-      )
-  }
-}
-*/
+let Home=()=>{
+  var info=Data.profiles;
+  return(
+   <div className="parent">
+    {info.map((i,index)=>(
+       <div key={index} className="child">
+       <h1>{i.name}</h1>
+       <h1>{i.email}</h1>
+       <h1>{i.role}</h1>
+       <Link to={{pathname:'/Profile',data:{id:index}}}>View Profile</Link>
+       </div>
+      ))}   
+     
+</div>
+   
+    )
 }
 export default App;

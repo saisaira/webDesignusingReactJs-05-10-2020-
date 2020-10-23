@@ -8,7 +8,7 @@ export default class Array_data extends Component{
     textAlign:"center"
   }
 		return(
-         <h1 style={style}>{this.props.trainer} is coach to {this.props.student}</h1>
+         <h1 style={style}>{this.props.trainer} This is array page {this.props.student}</h1>
 			)
 	}
 }
